@@ -1,34 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <het>
-    <orarend nap="Hétfő">
-        <ora id="GEIL-300B" tipus="Informatika">
-            <targy>Webtechnológia</targy>
+    <orarend id="02">
+        <ora id="GEIL-300B" tipus="Gyakorlat">
+            <targy>Webes-alkalmazások</targy>
             <idopont>
-                <nap></nap>
-                <kezd></kezd>
-                <veg></veg>
+                <nap>Kedd</nap>
+                <kezd>10:00</kezd>
+                <veg>12:00</veg>
             </idopont>
-            <helyszin></helyszin>
-            <oktato></oktato>
-            <szak></szak>
+            <helyszin>In. 101</helyszin>
+            <oktato>Krizsán Zoltán</oktato>
+            <szak>GE-BI</szak>
         </ora>
 
-        <ora id="GEIL-300B" tipus="Informatika">
+        <ora id="GEIL-300B" tipus="Előadás">
+            <targy>Adatkezelés XML-ben</targy>
+            <idopont>
+                <nap>Kedd</nap>
+                <kezd>12:00</kezd>
+                <veg>14:00</veg>
+            </idopont>
+            <helyszin>2-es előadó</helyszin>
+            <oktato>Dr. Bednarik László</oktato>
+            <szak>GE-BI</szak>
+        </ora>
+
+        <ora id="GEIL-300B" tipus="Gyakorlat">
+            <targy>Adatkezelés XML-ben</targy>
+            <idopont>
+                <nap>Kedd</nap>
+                <kezd>14:00</kezd>
+                <veg>16:00</veg>
+            </idopont>
+            <helyszin>In. 103</helyszin>
+            <oktato>Dr. Bednarik László</oktato>
+            <szak>GE-BI</szak>
+        </ora>
+
+        <ora id="GEIL-300B" tipus="Gyakorlat">
             <targy>Webtechnológia</targy>
             <idopont>
-                <nap></nap>
-                <kezd></kezd>
-                <veg></veg>
+                <nap>Kedd</nap>
+                <kezd>16:00</kezd>
+                <veg>18:00</veg>
             </idopont>
-            <helyszin></helyszin>
-            <oktato></oktato>
-            <szak></szak>
+            <helyszin>In. 103</helyszin>
+            <oktato>Agrádi Anita</oktato>
+            <szak>GE-BI</szak>
+        </ora>
+
+        <ora id="GEIL-300B" tipus="Gyakorlat">
+            <targy>Mesterséges Integligencia</targy>
+            <idopont>
+                <nap>Kedd</nap>
+                <kezd>18:00</kezd>
+                <veg>19:00</veg>
+            </idopont>
+            <helyszin>15</helyszin>
+            <oktato>Dr. Dudás László</oktato>
+            <szak>GE-BI</szak>
         </ora>
 
     </orarend>
 
-    <orarend nap="Kedd">
+    <orarend id="01">
         <ora id="GEIL-300B" tipus="Informatika">
             <targy>Webtechnológia</targy>
             <idopont>
