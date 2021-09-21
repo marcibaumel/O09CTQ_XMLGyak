@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+
+.form-div{
+    margin-top: 30px;
+}
+
+.label-style{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.input-style{
+  margin-left: 25px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.submit{
+    margin-top: 100px;
+}
+
+.btn-style{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XML Gyakorlat 01</title>
+</head>
+<body>
+    <form>                      
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputName">Név:</label>
+            <input type="name" class="form-control input-style" id="inputName" placeholder="Írd be a neved">
+        </div>
+
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputSim">PIN kód:</label>
+            <input type="password" class="form-control input-style" id="inputSim" placeholder="Írd be a PIN kódod">
+        </div>
+
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputFruit">Kedvenc gyümölcs:</label>
+            <input type="name" class="form-control input-style" id="inputFruit" placeholder="Írd be a kedvenc gyümöcsödet">
+        </div>
+
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputAge">Életkor:</label>
+            <input type="number" class="form-control input-style" id="inputAge" placeholder="Írd be az életkorod">
+        </div>
+
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputFoot">Lábméret:</label>
+            <input type="number" class="form-control input-style" id="inputFoot" placeholder="Írd be a lábméretedet">
+        </div>
+
+        <div class="form-group form-inline form-div">                            
+            <label class="label-style" for="inputSens">Önbizalom:</label>
+            <input type="range" class="form-control input-style form-div-range" min="0" max="100" value="30" step="5" id="inputSens">
+        </div>
+    </form>
+
+    <div class="submit">
+        <button id="submit-id" class="btn-style">Elküldés</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
