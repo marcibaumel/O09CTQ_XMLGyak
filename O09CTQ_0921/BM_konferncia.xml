@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>Miskolc Egyetem</cim>
+
+    <hallgatok>
+        <hallgató nev="Béla" cim="NkKóD"/>
+    </hallgatok>
+
+    <helyszin cim="Miskolc, Utca 5"/>
+    
+    <eloado nev="Lajos" adoszam="Unknow" lakcim="Mád Út utca"/>
+        
+
+    <datum>2021.03.04.</datum>
+</konferencia>
