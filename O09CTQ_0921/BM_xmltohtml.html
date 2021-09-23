@@ -3,193 +3,132 @@
 	<head>
 		<meta charset='UTF-8'>
 			<title>XML To HTML using codebeautify.org</title>
-		</head>
-		<body>
-			<table border=1>
+		<link rel="stylesheet" href="style.css">
+		
+		<body class="page-style">
+			<table id="table-style">
 				<thead>
-					<tr>
-						<th>órák,_id</th>
-						<th>COLUMN2</th>
-						<th>COLUMN3</th>
-						<th>COLUMN4</th>
-						<th>COLUMN5</th>
-						<th>COLUMN6</th>
-						<th>COLUMN7</th>
-						<th>COLUMN8</th>
-						<th>COLUMN9</th>
-						<th>COLUMN10</th>
-						<th>COLUMN11</th>
-						<th>COLUMN12</th>
-						<th>COLUMN13</th>
-						<th>COLUMN14</th>
-						<th>COLUMN15</th>
-						<th>COLUMN16</th>
-						<th>COLUMN17</th>
-						<th>COLUMN18</th>
-						<th>COLUMN19</th>
-						<th>COLUMN20</th>
-						<th>COLUMN21</th>
-						<th>COLUMN22</th>
-						<th>COLUMN23</th>
-						<th>COLUMN24</th>
-						<th>COLUMN25</th>
-						<th>COLUMN26</th>
-						<th>COLUMN27</th>
-						<th>COLUMN28</th>
-						<th>COLUMN29</th>
-						<th>COLUMN30</th>
-						<th>COLUMN31</th>
-						<th>COLUMN32</th>
-						<th>COLUMN33</th>
-						<th>COLUMN34</th>
-						<th>COLUMN35</th>
-						<th>COLUMN36</th>
-						<th>COLUMN37</th>
-						<th>COLUMN38</th>
-						<th>COLUMN39</th>
-						<th>COLUMN40</th>
-						<th>COLUMN41</th>
-						<th>COLUMN42</th>
-						<th>COLUMN43</th>
-						<th>COLUMN44</th>
-						<th>COLUMN45</th>
+					<tr class="table-header">
+						<th>targy</th>
+						<th>idopont</th>
+						<th>helyszin</th>
+						<th>okatato</th>
+						<th>szak</th>
+						<th>_id</th>
+						<th>_tipus</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>Webes-alkalmazások</td>
-						<td>Kedd</td>
-						<td>10:00</td>
-						<td>12:00</td>
-						<td>In. 101</td>
-						<td>Krizsán Zoltán</td>
+						<td>Web-es Alkalmazások</td>
+						<td>Hétfő|10:00|12:00</td>
+						<td>101</td>
+						<td>Dr. Krizsán Zoltán</td>
 						<td>GE-BI</td>
-						<td>GEIL-300B</td>
-						<td>Gyakorlat</td>
-						<td>Adatkezelés XML-ben</td>
-						<td>Kedd</td>
-						<td>12:00</td>
-						<td>14:00</td>
-						<td>2-es előadó</td>
-						<td>Dr. Bednarik László</td>
-						<td>GE-BI</td>
-						<td>GEIL-300B</td>
+						<td>01</td>
 						<td>Előadás</td>
-						<td>Adatkezelés XML-ben</td>
-						<td>Kedd</td>
-						<td>14:00</td>
-						<td>16:00</td>
-						<td>In. 103</td>
-						<td>Dr. Bednarik László</td>
-						<td>GE-BI</td>
-						<td>GEIL-300B</td>
-						<td>Gyakorlat</td>
-						<td>Webtechnológia</td>
-						<td>Kedd</td>
-						<td>16:00</td>
-						<td>18:00</td>
-						<td>In. 103</td>
+					</tr>
+					<tr>
+						<td>Web Technológia</td>
+						<td>Hétfő|12:00|14:00</td>
+						<td>305</td>
 						<td>Agrádi Anita</td>
 						<td>GE-BI</td>
-						<td>GEIL-300B</td>
+						<td>02</td>
+						<td>Előadás</td>
+					</tr>
+					<tr>
+						<td>Mesterséges Intelligencia</td>
+						<td>Hétfő|14:00|17:00</td>
+						<td>XXXII</td>
+						<td>Dr. Dudás László</td>
+						<td>GE-BI</td>
+						<td>03</td>
+						<td>Előadás</td>
+					</tr>
+					<tr>
+						<td>Web-es Alkalmazások</td>
+						<td>Kedd|10:00|12:00</td>
+						<td>101</td>
+						<td>Dr. Krizsán Zoltán</td>
+						<td>GE-BI</td>
+						<td>04</td>
 						<td>Gyakorlat</td>
-						<td>Mesterséges Integligencia</td>
-						<td>Kedd</td>
-						<td>18:00</td>
-						<td>19:00</td>
+					</tr>
+					<tr>
+						<td>Adatkezelés XML-ben</td>
+						<td>Kedd|12:00|14:00</td>
+						<td>I A2</td>
+						<td>Dr. Bednarik László</td>
+						<td>GE-BI</td>
+						<td>05</td>
+						<td>Előadás</td>
+					</tr>
+					<tr>
+						<td>Adatkezelés XML-ben</td>
+						<td>Kedd|14:00|16:00</td>
+						<td>103</td>
+						<td>Dr. Bednarik László</td>
+						<td>GE-BI</td>
+						<td>06</td>
+						<td>Gyakorlat</td>
+					</tr>
+					<tr>
+						<td>Web Technológia</td>
+						<td>Kedd|16:00|18:00</td>
+						<td>103</td>
+						<td>Agrádi Anita</td>
+						<td>GE-BI</td>
+						<td>07</td>
+						<td>Gyakorlat</td>
+					</tr>
+					<tr>
+						<td>Mesterséges Intelligencia</td>
+						<td>Kedd|18:00|19:00</td>
 						<td>15</td>
 						<td>Dr. Dudás László</td>
 						<td>GE-BI</td>
-						<td>GEIL-300B</td>
-						<td>Gyakorlat,02</td>
+						<td>08</td>
+						<td>Gyakorlat</td>
 					</tr>
 					<tr>
-						<td>,01</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
+						<td>Szoftvertesztelés</td>
+						<td>Szerda|08:00|10:00</td>
+						<td>103</td>
+						<td>Tompa Tamás</td>
+						<td>GE-BI</td>
+						<td>09</td>
+						<td>Előadás</td>
+					</tr>
+					<tr>
+						<td>Szoftvertesztelés</td>
+						<td>Szerda|10:00|12:00</td>
+						<td>103</td>
+						<td>Tompa Tamás</td>
+						<td>GE-BI</td>
+						<td>10</td>
+						<td>Gyakorlat</td>
+					</tr>
+					<tr>
+						<td>Integrált vállalti rendszerek</td>
+						<td>Szerda|14:00|16:00</td>
+						<td>A1/14</td>
+						<td>Dr. Samad Dadvandipour</td>
+						<td>GE-BI</td>
+						<td>11</td>
+						<td>Előadás</td>
+					</tr>
+					<tr>
+						<td>Integrált vállalti rendszerek</td>
+						<td>Szerda|16:00|18:00</td>
+						<td>15</td>
+						<td>Dr. Kulcsárné Forrai Móni</td>
+						<td>GE-BI</td>
+						<td>12</td>
+						<td>Gyakorlat</td>
 					</tr>
 					<tr>
 						<td></td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
-						<td>&nbsp</td>
 						<td>&nbsp</td>
 						<td>&nbsp</td>
 						<td>&nbsp</td>
