@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+    <ora id="01" tipus="Előadás">
+        <targy>Web-es Alkalmazások</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>101</helyszin>
+        <okatato>Dr. Krizsán Zoltán</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="02" tipus="Előadás">
+        <targy>Web Technológia</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>305</helyszin>
+        <okatato>Agrádi Anita</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="03" tipus="Előadás">
+        <targy>Mesterséges Intelligencia</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14:00</tol>
+            <ig>17:00</ig>
+        </idopont>
+        <helyszin>XXXII</helyszin>
+        <okatato>Dr. Dudás László</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="04" tipus="Gyakorlat">
+        <targy>Web-es Alkalmazások</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>101</helyszin>
+        <okatato>Dr. Krizsán Zoltán</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="05" tipus="Előadás">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>I A2</helyszin>
+        <okatato>Dr. Bednarik László</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="06" tipus="Gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>103</helyszin>
+        <okatato>Dr. Bednarik László</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="07" tipus="Gyakorlat">
+        <targy>Web Technológia</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>103</helyszin>
+        <okatato>Agrádi Anita</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="08" tipus="Gyakorlat">
+        <targy>Mesterséges Intelligencia</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>18:00</tol>
+            <ig>19:00</ig>
+        </idopont>
+        <helyszin>15</helyszin>
+        <okatato>Dr. Dudás László</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="09" tipus="Előadás">
+        <targy>Szoftvertesztelés</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>08:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>103</helyszin>
+        <okatato>Tompa Tamás</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="10" tipus="Gyakorlat">
+        <targy>Szoftvertesztelés</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>103</helyszin>
+        <okatato>Tompa Tamás</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="11" tipus="Előadás">
+        <targy>Integrált vállalti rendszerek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>A1/14</helyszin>
+        <okatato>Dr. Samad Dadvandipour</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+
+    <ora id="12" tipus="Gyakorlat">
+        <targy>Integrált vállalti rendszerek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>15</helyszin>
+        <okatato>Dr. Kulcsárné Forrai Móni</okatato>
+        <szak>GE-BI</szak>
+    </ora>
+</orarend>
