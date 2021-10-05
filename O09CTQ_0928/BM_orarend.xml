@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE orarend SYSTEM "BM_orarend.dtd">
 <orarend>
     <ora id="01" tipus="Előadás">
         <targy>Web-es Alkalmazások</targy>

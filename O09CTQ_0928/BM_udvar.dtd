@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE udvar [
 
-<!ELEMENT udvar(gazada, kutyva, kakas, tyuk, diszni)>
-            <!ATTLIST gazada nev #REQUIRED>
+
+
+<!ELEMENT udvar (gazada, kutyva, kakas, tyuk, diszni)>
+            <!ATTLIST gazada nev CDATA #REQUIRED>
             <!ATTLIST kutya nev #REQUIRED>
             <!ATTLIST kakas nev #REQUIRED>
             <!ATTLIST tyuk nev #REQUIRED>

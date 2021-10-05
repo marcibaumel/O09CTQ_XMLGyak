@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<!DOCTYPE orarend [
-    <!ELEMENT orarend(ora+)>
-    <!ELEMENT ora(targy, idopont+, helyszin, oktato, szak)>
+<!ELEMENT orarend (ora+)>
+    <!ELEMENT ora (targy, idopont+, helyszin, oktato, szak)>
         <!ELEMENT targy (#PCDATA)>
         <!ELEMENT idopont (nap, tol, ig)>   
                 <!ELEMENT nap (#PCDATA)>
@@ -11,6 +8,5 @@
         <!ELEMENT helyszin (#PCDATA)>
         <!ELEMENT okatato (#PCDATA)>
         <!ELEMENT szak (#PCDATA)>
-        <!ATTLIST ora id #REQUIRED>
-        <!ATTLIST ora tipus #REQUIRED>
-]>
+        <!ATTLIST ora id>
+        <!ATTLIST ora tipus>
