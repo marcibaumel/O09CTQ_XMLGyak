@@ -1,35 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE konyvek [
-
-<!ELEMENT konyvek(konyv+)>
-<!ELEMENT konyv(cime, ev, kiado, szerzo)>
+<!ELEMENT konyvek (konyv)*>
+<!ELEMENT konyv (cime, ev, kiado, szerzo+, abstract?)>
+            <!ATTLIST konyv ID CDATA #REQUIRED>
             <!ELEMENT cime (#PCDATA)>
             <!ELEMENT ev (#PCDATA)>
             <!ELEMENT kiado (#PCDATA)>
             <!ELEMENT szerzo (#PCDATA)>
-            <!ATTLIST konyv ID #REQUIRED>
-]>
+            
 
-    <konyvek>
-        <konyv id="01">
-            <cime>Clean Code</cime>
-            <ev>2008</ev>
-            <kiado>Pearson Education (US)</kiado>
-            <szerzo>Robert C. Martin</szerzo>
-        </konyv>
 
-        <konyv id="02">
-            <cime>Clean Architecture : A Craftsman's Guide to Software Structure and Design</cime>
-            <ev>2017</ev>
-            <kiado>Pearson Education (US)</kiado>
-            <szerzo>Robert C. Martin</szerzo>
-        </konyv>
-
-        <konyv id="03">
-            <cime>Refactoring : Improving the Design of Existing Code</cime>
-            <ev>2019</ev>
-            <kiado>Pearson Education (US)</kiado>
-            <szerzo>Martin Fowler</szerzo>
-        </konyv>
-    </konyvek>
+  
