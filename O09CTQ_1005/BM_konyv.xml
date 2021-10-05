@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BM_konyv.xsd">
+
+        <konyv id="01">
+            <cime>Clean Code</cime>
+            <ev>2008</ev>
+            <kiado>Pearson Education (US)</kiado>
+            <szerzo>Robert C. Martin</szerzo>
+            <abstract></abstract>
+        </konyv>
+
+        <konyv id="02">
+            <cime>Clean Architecture : A Craftsman's Guide to Software Structure and Design</cime>
+            <ev>2017</ev>
+            <kiado>Pearson Education (US)</kiado>
+            <szerzo>Robert C. Martin</szerzo>
+            <abstract></abstract>
+        </konyv>
+
+        <konyv id="03">
+            <cime>Refactoring : Improving the Design of Existing Code</cime>
+            <ev>2019</ev>
+            <kiado>Pearson Education (US)</kiado>
+            <szerzo>Martin Fowler</szerzo>
+            <abstract></abstract>
+        </konyv>
+
+    </konyvek>
