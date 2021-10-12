@@ -1,4 +1,5 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
 <xs:complexType name="ido">
     <xs:sequence>
         <xs:element name="nap" type="xs:string"/>
@@ -6,7 +7,15 @@
         <xs:element name="ig" type="xs:string"/>
     </xs:sequence>
 </xs:complexType>
-    <xs:element name="orarend">
+
+<xs:simpleType name="oraTípus">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="előadás"/>
+        <xs:enumeration value="gyakorlat"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="orarend">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="ora" maxOccurs="unbounded">
