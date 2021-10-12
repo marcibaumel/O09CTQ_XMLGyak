@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartya xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BM_nevjegykartya.xsd">
+    <nev>Baumel Márton</nev>
+    <egyetem>
+        <iranyitoszam>3500</iranyitoszam>
+        <varos>Miskolc</varos>
+        <utca>Miskolc utca</utca>
+        <hazszam>12</hazszam>
+        <telefonszam>+3131313</telefonszam>
+        <weblap>www.miskolc.hu</weblap>
+    </egyetem>
+    <beosztas>Tanuló</beosztas>
+    <telefonszam>21213131</telefonszam>
+    <email>marcibaumel@gmail.com</email>
+    <abstract></abstract>
+</nevjegykartya>

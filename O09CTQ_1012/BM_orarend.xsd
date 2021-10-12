@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:complexType name="ido">
+    <xs:sequence>
+        <xs:element name="nap" type="xs:string"/>
+        <xs:element name="tol" type="xs:string"/>
+        <xs:element name="ig" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
+    <xs:element name="orarend">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ora" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="targy" type="xs:string"/>
+                            <xs:element name="idopont" type="ido"/>
+                            <xs:element name="helyszin" type="xs:string"/>
+                            <xs:element name="okatato" type="xs:string"/>
+                            <xs:element name="szak" type="xs:string"/>
+                            <xs:element name="abstract" type="xs:string"/> 
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="tipus" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>
