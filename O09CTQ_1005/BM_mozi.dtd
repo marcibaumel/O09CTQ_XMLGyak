@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT mozi (film+) >
+    <!ATTLIST mozi xmlns:xsi CDATA #IMPLIED>
+    <!ATTLIST mozi xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT film (rendezo+, szinesz, iro) >
+        <!ATTLIST film id CDATA #REQUIRED >
+        <!ATTLIST film mufaj CDATA #REQUIRED>
+        <!ELEMENT rendezo EMPTY >
+            <!ATTLIST rendezo id CDATA #REQUIRED >
+            <!ATTLIST rendezo nev CDATA #REQUIRED >
+        <!ELEMENT szinesz EMPTY >
+            <!ATTLIST szinesz id CDATA #REQUIRED >
+            <!ATTLIST szinesz nev CDATA #REQUIRED >
+        <!ELEMENT iro EMPTY >
+            <!ATTLIST iro id CDATA #REQUIRED >
