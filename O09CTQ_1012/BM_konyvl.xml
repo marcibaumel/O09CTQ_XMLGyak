@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<s:konyvek xmlns:s="sema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="sema BM_konyvl.xsd"
+        xmlns:m="modul">
+
+        <konyv s:isbn="9789633246986">
+                <cim>Harry Potter és a bölcsek köve</cim>
+                <szerzo>J. K. Rowling</szerzo>
+                <szereplo>
+                    <m:nev>Harry Potter</m:nev>
+                    <m:baratja>Ron Weasley</m:baratja>
+                    <m:szuletett>1980-06-30</m:szuletett>
+                    <m:jellemzes>Varázsló</m:jellemzes>
+                </szereplo>
+                <szereplo2>
+                    <m:nev>Ron Weasley</m:nev>
+                    <m:szuletett>1980-03-01</m:szuletett>
+                    <m:jellemzes>Varázsló</m:jellemzes>
+                </szereplo2>
+        </konyv>
+        
+</s:konyvek>
