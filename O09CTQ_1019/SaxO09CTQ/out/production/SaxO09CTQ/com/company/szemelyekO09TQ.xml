@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<szemelyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekO09CTQ.xsd">
+
+    <szemely id="01">
+        <nev>Baumel Márton</nev>
+        <kor>20</kor>
+        <varos>Szerencs</varos>
+    </szemely>
+
+    <szemely id="02">
+        <nev>Bab Erik</nev>
+        <kor>70</kor>
+        <varos>Miskolc</varos>
+    </szemely>
+
+    <szemely id="03">
+        <nev>Ek Gergő</nev>
+        <kor>10</kor>
+        <varos>Budapest</varos>
+    </szemely>
+</szemelyek>
