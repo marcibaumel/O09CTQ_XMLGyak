@@ -1,1 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<users>
+    <user>
+        <id>01</id>
+        <firstName>Kis</firstName>
+        <lastName>Béla</lastName>
+        <profession>UI</profession>
+    </user>
+
+    <user>
+        <id>02</id>
+        <firstName>Nagy</firstName>
+        <lastName>Gergő</lastName>
+        <profession>UX</profession>
+    </user>
+
+    <user>
+        <id>03</id>
+        <firstName>Közepes</firstName>
+        <lastName>Ervin</lastName>
+        <profession>Programozó</profession>
+    </user>
+</users>

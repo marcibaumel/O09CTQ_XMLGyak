@@ -3,6 +3,7 @@ package com.domO09CTQ1026;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    DomReadO09CTQ domReadO09CTQ = new DomReadO09CTQ();
+        domReadO09CTQ.readElements();
     }
 }
