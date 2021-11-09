@@ -41,5 +41,22 @@ public class XPathO09CTQ {
                 System.out.println("Becenev: "+element.getElementsByTagName("becenev").item(0).getTextContent());
             }
         }
+
+        expression = "class/student";
+        nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
+
+        for (int i = 0; i< nodeList.getLength(); i++){
+            Node node = nodeList.item(i);
+            System.out.println("\nAktuális elem:" + node.getNodeName());
+            if(node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("student")){
+                Element element = (Element) node;
+
+                System.out.println("Hallgató id: "+ element.getAttribute("id"));
+                System.out.println("Keresztnev: "+element.getElementsByTagName("keresztnev").item(0).getTextContent());
+                System.out.println("Vezeteknev: "+element.getElementsByTagName("vezeteknev").item(0).getTextContent());
+                System.out.println("Becenev: "+element.getElementsByTagName("becenev").item(0).getTextContent());
+            }
+        }
+
     }
 }
