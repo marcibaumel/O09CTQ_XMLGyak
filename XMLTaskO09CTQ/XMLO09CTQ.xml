@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Office xsi:noNamespaceSchemaLocation="XMLSchemaO09CTQ.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <employees>
+        <employee employeeId="100">
+            <name>Kis Béla</name>
+            <phone>06308881983</phone>
+            <email>bela@email.com</email>
+        </employee>
+        <employee employeeId="101">
+            <name>Nagy Ernő</name>
+            <phone>06308881984</phone>
+            <email>erno@email.com</email>
+        </employee>
+        <employee employeeId="102">
+            <name>Baumel Márton</name>
+            <phone>06308881985</phone>
+            <email>marton@email.com</email>
+        </employee>
+    </employees>
+
+    <departments>
+        <department departmentId="01">
+            <address>
+                <country>Hungary</country>
+                <postcode>3900</postcode>
+                <city>Szerencs</city>
+                <street>Hársfa utca 14</street>
+            </address>
+            <email>marcibaumel@gmai.com</email>
+            <website>szerencswebsite.hu</website>
+        </department>
+
+        <department departmentId="02">
+            <address>
+                <country>Hungary</country>
+                <postcode>3515</postcode>
+                <city>Miskolc</city>
+                <street>Egyetemi út 1</street>
+            </address>
+            <email>miskolc@nememail.com</email>
+            <website>miskolciceg.hu</website>
+        </department>
+    </departments>
+
+    <warehouses>
+        <warehouse>
+            <item>
+                <itemName>Paper</itemName>
+                <itemQuanitity>100</itemQuanitity>
+            </item>
+            <item>
+                <itemName>scissors</itemName>
+                <itemQuanitity>200</itemQuanitity>
+            </item>
+            <address>
+                <country>Hungary</country>
+                <postcode>3515</postcode>
+                <city>Miskolc</city>
+                <street>Egyetemi út 2</street>
+            </address>
+            <email>warehousemiskolc@email.com</email>
+        </warehouse>
+
+        <warehouse>
+            <item>
+                <itemName>Paper</itemName>
+                <itemQuanitity>100</itemQuanitity>
+            </item>
+            <address>
+                    <country>Hungary</country>
+                    <postcode>3900</postcode>
+                    <city>Szerencs</city>
+                    <street>Hársfa utca 14</street>
+            </address>
+            <email>warehouseszerencs@email.com</email>
+        </warehouse>
+    </warehouses>
+
+    <premissons>
+        <premisson premissonId="1">
+            <role>admin</role>
+            <modified>2021-06-12</modified>
+            <computer>01</computer>
+            <computer>02</computer>
+            <computer>03</computer>
+        </premisson>
+        <premisson premissonId="2">
+            <role>user</role>
+            <modified>2021-06-12</modified>
+            <computer>01</computer>
+        </premisson>
+    </premissons>
+
+    <eps>
+        <ep>
+            <employeeId>100</employeeId>
+            <premissonId>1</premissonId>
+            <role>true</role>
+        </ep>
+
+        <ep>
+            <employeeId>102</employeeId>
+            <premissonId>2</premissonId>
+            <role>true</role>
+        </ep>
+    </eps>
+
+    <eds>
+        <ed>
+            <employeeId>100</employeeId>
+            <departmentId>01</departmentId>
+            <position>Sales</position>
+        </ed>
+        <ed>
+            <employeeId>101</employeeId>
+            <departmentId>01</departmentId>
+            <position>HR</position>
+        </ed>
+        <ed>
+            <employeeId>102</employeeId>
+            <departmentId>02</departmentId>
+            <position>Marketing</position>
+        </ed>
+    </eds>
+</Office>
