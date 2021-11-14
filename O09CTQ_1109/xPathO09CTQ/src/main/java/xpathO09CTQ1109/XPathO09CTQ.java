@@ -25,7 +25,8 @@ public class XPathO09CTQ {
         document.getDocumentElement().normalize();
 
         XPath xPath = XPathFactory.newInstance().newXPath();
-        String expression = "class";
+        int expressionNumber = 5;
+        String expression = getExpression(expressionNumber);
 
         NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 
@@ -42,6 +43,7 @@ public class XPathO09CTQ {
             }
         }
 
+        /*
         expression = "class/student";
         nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 
@@ -57,6 +59,25 @@ public class XPathO09CTQ {
                 System.out.println("Becenev: "+element.getElementsByTagName("becenev").item(0).getTextContent());
             }
         }
+    */
+    }
 
+    private static String getExpression(int number) {
+        switch (number) {
+            case 0: return "class";
+            case 1: return "class/student";
+            case 2: return "class/student[@id='01']";
+            case 3: return "//student";
+            case 4: return "class/student[2]";
+            case 5: return "class/student[last()]";
+            case 6: return "class/student[last()-1]";
+            case 7: return "class/student[position()<3]";
+            case 8: return "class/*";
+            case 9: return "//student[@*]";
+            case 10: return "*";
+            case 11: return "class/student[kor>20]";
+            case 12: return "//student/keresztnev | //student/vezeteknev";
+            default: return "";
+        }
     }
 }

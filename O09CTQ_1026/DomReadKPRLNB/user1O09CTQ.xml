@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="domfrnjtj">
+  <user id="0">
+    <firstname>Baumel</firstname>
+    <lastname>Márton</lastname>
+    <profession>Student</profession>
+  </user>
+  <user id="1">
+    <firstname>Peter</firstname>
+    <lastname>Mol</lastname>
+    <profession>HR</profession>
+  </user>
+  <user id="2">
+    <firstname>Henry</firstname>
+    <lastname>Nárd</lastname>
+    <profession>Salesman</profession>
+  </user>
+</users>

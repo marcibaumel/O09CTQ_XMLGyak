@@ -1,4 +1,5 @@
-package com.domO09CTQ1026;
+package domWriterO09CTQ;
+import java.io.File;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -14,9 +15,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import java.io.File;
-
-public class DomWriteO09CTQ {
+public class domWriterO09CTQ {
 
     public static void main(String[] args) {
         Document newdoc;
@@ -25,7 +24,7 @@ public class DomWriteO09CTQ {
         try {
             DocumentBuilder db = dbf.newDocumentBuilder();
             newdoc = db.newDocument();
-            Element root = newdoc.createElementNS("domfrnjtj","users");
+            Element root = newdoc.createElementNS("domo09ctq","users");
 
             root.appendChild(createUser(newdoc, "0", "Baumel", "Márton", "Student"));
             root.appendChild(createUser(newdoc, "1", "Peter", "Mol", "HR"));
@@ -74,5 +73,5 @@ public class DomWriteO09CTQ {
 
         return (Node)node;
     }
-}
 
+}
