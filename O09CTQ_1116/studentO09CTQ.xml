@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="studentO09CTQ.xsl" type="text/xsl"?>
+
+<class>
+    <student id="01">
+        <vezeteknev>Baumel</vezeteknev>
+        <keresztnev>Marton</keresztnev>
+        <becenev>Marci</becenev>
+        <kor>21</kor>
+    </student>
+
+    <student id="02">
+        <vezeteknev>Kek</vezeteknev>
+        <keresztnev>Dora</keresztnev>
+        <becenev>Dorka</becenev>
+        <kor>20</kor>
+    </student>
+
+    <student id="03">
+            <vezeteknev>Zsoldos</vezeteknev>
+            <keresztnev>Andrea</keresztnev>
+            <becenev>Andi</becenev>
+            <kor>18</kor>
+    </student>
+</class>
