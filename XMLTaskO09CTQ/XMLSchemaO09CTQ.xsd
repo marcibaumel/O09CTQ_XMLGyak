@@ -4,67 +4,65 @@
     <xs:element name="Office">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="employees">
+
+                <xs:element name="Employees">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="Employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
-                <xs:element name="departments">
+                <xs:element name="Departments">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="department" type="departmentType" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="Department" type="departmentType" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Warehouses">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Warehouse" type="warehouseType" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Premissons">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Premisson" type="premissonType" minOccurs="0" maxOccurs="unbounded"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
 
-                <xs:element name="warehouses">
+                <xs:element name="Licenses">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="warehouse" type="warehouseType" minOccurs="0" maxOccurs="unbounded"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-
-                <xs:element name="premissons">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="premisson" type="premissonType" minOccurs="0" maxOccurs="unbounded"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-
-
-                <xs:element name="eps">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="ep" type="epType" minOccurs="0" maxOccurs="unbounded"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-
-                <xs:element name="eds">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="ed" type="edType" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="License" type="licenseType" minOccurs="0" maxOccurs="unbounded"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
             </xs:sequence>
         </xs:complexType>
+
+        <xs:key name="EmployeeId">
+			<xs:selector xpath="Employee"/>
+			<xs:field xpath="@EmployeeId"/>
+		</xs:key>
+        
     </xs:element>
 
     <xs:complexType name="employeeType">
         <xs:sequence>
-            <xs:element name="name" type="xs:string"/>
-            <xs:element name="phone" type="xs:string"/>
-            <xs:element name="email" type="xs:string"/>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Phone" type="xs:string"/>
+            <xs:element name="Email" type="xs:string"/>
         </xs:sequence>
-        <xs:attribute name="employeeId">
+        <xs:attribute name="EmployeeId" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:integer">
                     <xs:pattern value="[0-9][0-9][0-9]"/>
@@ -73,14 +71,19 @@
         </xs:attribute>
     </xs:complexType>
 
+
+
+
     <xs:complexType name="departmentType">
         <xs:sequence>
-            <xs:element name="address" type="addressType" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="email" type="xs:string"/>
-            <xs:element name="website" type="xs:string"/>
+            <xs:element name="Address" type="addressType" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="Email" type="xs:string"/>
+            <xs:element name="Website" type="xs:string"/>
         </xs:sequence>
-        <xs:attribute name="departmentId" type="xs:integer"/>
+        <xs:attribute name="DepartmentId" type="xs:integer"/>
     </xs:complexType>
+
+
 
     <xs:complexType name="addressType">
         <xs:sequence>
@@ -118,19 +121,11 @@
         <xs:attribute name="premissonId" type="xs:integer"/>
     </xs:complexType>
 
-    <xs:complexType name="epType">
+    <xs:complexType name="licenseType">
         <xs:sequence>
             <xs:element name="employeeId" type="xs:integer"/>
             <xs:element name="premissonId" type="xs:integer"/>
             <xs:element name="role" type="xs:boolean"/>
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="edType">
-        <xs:sequence>
-            <xs:element name="employeeId" type="xs:integer"/>
-            <xs:element name="departmentId" type="xs:integer"/>
-            <xs:element name="position" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
 
