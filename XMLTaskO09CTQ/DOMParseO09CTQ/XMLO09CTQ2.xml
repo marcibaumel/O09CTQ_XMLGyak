@@ -1,115 +1,211 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Office xsi:noNamespaceSchemaLocation="XMLSchemaO09CTQ.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Office xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaO09CTQ.xsd">
+        
     
     <Employees>
+                
         <Employee EmployeeId="100">
+                        
             <Name>Kis Béla</Name>
+                        
             <Phone>06308881983</Phone>
-            <Email>bela@email.com</Email>
+                        
+            <Email>belaÚJ@email.com</Email>
+                        
             <DepartmentId_FK>01</DepartmentId_FK>
+                    
         </Employee>
+                
         <Employee EmployeeId="101">
+                        
             <Name>Nagy Ernő</Name>
+                        
             <Phone>06308881984</Phone>
+                        
             <Email>erno@email.com</Email>
+                        
             <DepartmentId_FK>01</DepartmentId_FK>
+                    
         </Employee>
+                
         <Employee EmployeeId="102">
+                        
             <Name>Baumel Márton</Name>
+                        
             <Phone>06308881985</Phone>
+                        
             <Email>marton@email.com</Email>
+                        
             <DepartmentId_FK>02</DepartmentId_FK>
+                    
         </Employee>
+            
     </Employees>
-
+        
     <Departments>
+                
         <Department DepartmentId="01">
+                        
             <Address>
+                                
                 <Country>Hungary</Country>
+                                
                 <Postcode>3900</Postcode>
+                                
                 <City>Szerencs</City>
+                                
                 <Street>Hársfa utca 14</Street>
+                            
             </Address>
+                        
             <Email>marcibaumel@gmai.com</Email>
+                        
             <Website>szerencswebsite.hu</Website>
+                    
         </Department>
-
+                
         <Department DepartmentId="02">
+                        
             <Address>
+                                
                 <Country>Hungary</Country>
-                <Postcode>3515</Postcode>
-                <City>Miskolc</City>
-                <Street>Egyetemi út 1</Street>
+                                
+                <Postcode>1055</Postcode>
+                                
+                <City>Budapest</City>
+                                
+                <Street>Kossuth Lajos tér 1-3</Street>
+                            
             </Address>
+                        
             <Email>miskolc@nememail.com</Email>
+                        
             <Website>miskolciceg.hu</Website>
+                    
         </Department>
+            
     </Departments>
-
+        
     <Warehouses>
+                
         <Warehouse WarehouseId="01">
+                        
             <Item>
+                                
                 <ItemName>Paper</ItemName>
+                                
                 <ItemQuanitity>100</ItemQuanitity>
+                            
             </Item>
+                        
             <Item>
+                                
                 <ItemName>scissors</ItemName>
+                                
                 <ItemQuanitity>200</ItemQuanitity>
+                            
             </Item>
+                        
             <Address>
+                                
                 <Country>Hungary</Country>
+                                
                 <Postcode>3515</Postcode>
+                                
                 <City>Miskolc</City>
+                                
                 <Street>Egyetemi út 2</Street>
+                            
             </Address>
+                        
             <Email>warehousemiskolc@email.com</Email>
+                    
         </Warehouse>
-
+                
         <Warehouse WarehouseId="02">
+                        
             <Item>
+                                
                 <ItemName>Paper</ItemName>
+                                
                 <ItemQuanitity>100</ItemQuanitity>
+                            
             </Item>
+                        
             <Address>
-                    <Country>Hungary</Country>
-                    <Postcode>3900</Postcode>
-                    <City>Szerencs</City>
-                    <Street>Hársfa utca 14</Street>
+                                    
+                <Country>Hungary</Country>
+                                    
+                <Postcode>3900</Postcode>
+                                    
+                <City>Szerencs</City>
+                                    
+                <Street>Hársfa utca 14</Street>
+                            
             </Address>
+                        
             <Email>warehouseszerencs@email.com</Email>
+                    
         </Warehouse>
+            
     </Warehouses>
-
+        
     <Permissions>
+                
         <Permission PermissionId="1">
+                        
             <Role>admin</Role>
-            <Modified>2021-06-12</Modified>
+                        
+            <Modified>2021-11-23</Modified>
+                        
             <Computer>01</Computer>
+                    
         </Permission>
-
+                
         <Permission PermissionId="2">
+                        
             <Role>user</Role>
+                        
             <Modified>2021-06-12</Modified>
+                        
             <Computer>03</Computer>
+                    
         </Permission>
+            
     </Permissions>
-
+        
     <Licenses>
+                
         <License>
+                        
             <EmployeeId_FK>100</EmployeeId_FK>
+                        
             <PermissionId_FK>1</PermissionId_FK>
+                        
             <Active>true</Active>
+                    
         </License>
+                
         <License>
+                        
             <EmployeeId_FK>101</EmployeeId_FK>
+                        
             <PermissionId_FK>2</PermissionId_FK>
+                        
             <Active>false</Active>
+                    
         </License>
+                
         <License>
+                        
             <EmployeeId_FK>102</EmployeeId_FK>
+                        
             <PermissionId_FK>1</PermissionId_FK>
+                        
             <Active>false</Active>
+                    
         </License>
+            
     </Licenses>
+    
 </Office>
