@@ -49,16 +49,7 @@
             </xs:sequence>
         </xs:complexType>
 
-        <xs:key name="EmployeeId_FK">
-			<xs:selector xpath="Employees/Employee"/>
-			<xs:field xpath="@EmployeeId"/>
-		</xs:key>
-
-        <xs:keyref name="EmployeeId_FK-License" refer="EmployeeId_FK">
-			<xs:selector xpath="Licenses/License/EmployeeId_FK"/>
-            <xs:field xpath="."/>
-        </xs:keyref>
-
+      
     </xs:element>
 
     <xs:complexType name="addressType">

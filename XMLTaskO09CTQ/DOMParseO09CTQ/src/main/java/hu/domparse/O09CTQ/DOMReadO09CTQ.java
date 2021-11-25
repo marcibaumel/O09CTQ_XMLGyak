@@ -17,6 +17,10 @@ public class DOMReadO09CTQ {
 
 
     public static void main(String[] args) {
+        /*
+        Minden elem beolvasása és kiíratása
+        */
+
         System.out.println("/****************************************/");
         System.out.println("/****************************************/");
         System.out.println("XML File Content:");
@@ -83,6 +87,7 @@ public class DOMReadO09CTQ {
     private static String indent(int multiplyBy) {
         StringBuilder whiteSpaces = new StringBuilder();
         for (int i = 0; i < (baseLineRule *multiplyBy); i++) {
+            //3 space-nyi hely
             whiteSpaces.append("  ");
         }
         return whiteSpaces.toString();
@@ -93,8 +98,10 @@ public class DOMReadO09CTQ {
         StringBuilder sb = new StringBuilder(" Attributes: [");
         for (int i = 0; i < node.getLength(); i++) {
             if(i != node.getLength()-1) {
+                //Elem neve
                 sb.append(node.item(i).getNodeName()+" : "+node.item(i).getNodeValue()+"; ");
             } else {
+                //Elem
                 sb.append(node.item(i).getNodeName()+" : "+node.item(i).getNodeValue());
             }
         }

@@ -57,7 +57,7 @@ public class DOMModifyO09CTQ {
                 }
             }
 
-            //Az osztály címének a módosítása
+            //Az osztály címének teljes módosítása
             nodes = document.getElementsByTagName("Department");
             for	(int i = 0; i < nodes.getLength(); i++) {
                 Node node = nodes.item(i);

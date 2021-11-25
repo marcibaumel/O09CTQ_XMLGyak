@@ -23,8 +23,13 @@ import static java.lang.String.valueOf;
 public class DOMQueryO09CTQ {
 
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
+        //Minden dolgozó kiíratása
         getAllEmployee();
+
+        //Minden részleg kiíratása
         getAllDepartment();
+
+        //Minden eszkösz megkapása ami a raktárban van
         getAllItemsByWarehouses();
     }
 
