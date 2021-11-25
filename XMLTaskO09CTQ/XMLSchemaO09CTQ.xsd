@@ -54,8 +54,28 @@
 			<xs:field xpath="@EmployeeId"/>
 		</xs:key>
 
+        <xs:key name="DepartmentId_FK">
+			<xs:selector xpath="Departments/Department"/>
+			<xs:field xpath="@DepartmentId"/>
+		</xs:key>
+
+        <xs:key name="PermissionId_FK">
+			<xs:selector xpath="Permissions/Permission"/>
+			<xs:field xpath="@PermissionId"/>
+		</xs:key>
+
         <xs:keyref name="EmployeeId_FK-License" refer="EmployeeId_FK">
 			<xs:selector xpath="Licenses/License/EmployeeId_FK"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="PermissionId_FK-License" refer="PermissionId_FK">
+			<xs:selector xpath="Licenses/License/PermissionId_FK"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="DepartmentId_FK-Employee" refer="DepartmentId_FK">
+			<xs:selector xpath="Employees/Employee/DepartmentId_FK"/>
             <xs:field xpath="."/>
         </xs:keyref>
 
