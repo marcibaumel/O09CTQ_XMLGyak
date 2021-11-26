@@ -51,11 +51,11 @@
         <Warehouse WarehouseId="01">
             <Item>
                 <ItemName>Paper</ItemName>
-                <ItemQuanitity>100</ItemQuanitity>
+                <ItemQuantity>100</ItemQuantity>
             </Item>
             <Item>
                 <ItemName>scissors</ItemName>
-                <ItemQuanitity>200</ItemQuanitity>
+                <ItemQuantity>200</ItemQuantity>
             </Item>
             <Address>
                 <Country>Hungary</Country>
@@ -69,7 +69,7 @@
         <Warehouse WarehouseId="02">
             <Item>
                 <ItemName>Paper</ItemName>
-                <ItemQuanitity>100</ItemQuanitity>
+                <ItemQuantity>100</ItemQuantity>
             </Item>
             <Address>
                     <Country>Hungary</Country>

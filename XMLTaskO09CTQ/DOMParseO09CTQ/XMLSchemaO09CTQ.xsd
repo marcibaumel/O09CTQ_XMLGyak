@@ -136,7 +136,7 @@
     <xs:complexType name="itemType">
         <xs:sequence>
             <xs:element name="ItemName" type="xs:string"  maxOccurs="1"/>
-            <xs:element name="ItemQuanitity" type="xs:integer" maxOccurs="1"/>
+            <xs:element name="ItemQuantity" type="xs:integer" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
 

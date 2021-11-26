@@ -94,7 +94,7 @@
                                 
                 <ItemName>Paper</ItemName>
                                 
-                <ItemQuanitity>100</ItemQuanitity>
+                <ItemQuantity>100</ItemQuantity>
                             
             </Item>
                         
@@ -102,7 +102,7 @@
                                 
                 <ItemName>scissors</ItemName>
                                 
-                <ItemQuanitity>200</ItemQuanitity>
+                <ItemQuantity>200</ItemQuantity>
                             
             </Item>
                         
@@ -128,7 +128,7 @@
                                 
                 <ItemName>Paper</ItemName>
                                 
-                <ItemQuanitity>100</ItemQuanitity>
+                <ItemQuantity>100</ItemQuantity>
                             
             </Item>
                         
