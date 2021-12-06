@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="json"></p>
+
+<script>
+const txt = '{"book": [{"author": "Nyékné Dr. Gaziler Judit","language": "Java 2 I-II - Útikalauz programozóknak 5.0"},{ "author": "Reiter István","language": "C# programozás lépésről lépére"}]}'
+const obj = JSON.parse(txt);
+console.log(obj);
+document.getElementById("json").innerHTML = obj.book[0].author + ", " + obj.book[0].language +"<br/>"+obj.book[1].author+","+obj.book[1].language;
+</script>
+
+</body>
+</html>
